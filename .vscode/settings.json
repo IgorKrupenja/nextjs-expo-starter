@@ -1,5 +1,6 @@
 {
   "editor.codeActionsOnSave": {
+    "source.addMissingImports": true,
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true
   },
@@ -24,5 +25,6 @@
   },
   "editor.linkedEditing": true,
   "material-icon-theme.activeIconPack": "react",
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.rulers": [100]
 }
