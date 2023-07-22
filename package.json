@@ -1,0 +1,25 @@
+{
+  "name": "nextjs-turbo-starter",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "FORCE_COLOR=1 turbo run build",
+    "dev": "FORCE_COLOR=1 turbo run dev typed-scss:watch --parallel",
+    "format": "prettier --write \"**/*.{ts,tsx,md,js}\" --ignore-path .gitignore",
+    "lint": "FORCE_COLOR=1 turbo run lint",
+    "test": "FORCE_COLOR=1 turbo run test"
+  },
+  "devDependencies": {
+    "eslint-config-custom": "workspace:*",
+    "prettier": "^3.0.0",
+    "turbo": "^1.10.9"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "pnpm@8.6.2"
+}
