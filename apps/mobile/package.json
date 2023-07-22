@@ -18,6 +18,7 @@
   "devDependencies": {
     "@babel/core": "^7.22.9",
     "@types/react": "~18.2.15",
+    "eslint-config-custom": "workspace:*",
     "typescript": "^5.1.6"
   },
   "private": true
