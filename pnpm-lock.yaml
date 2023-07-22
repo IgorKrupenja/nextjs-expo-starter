@@ -20,6 +20,9 @@ importers:
 
   apps/mobile:
     dependencies:
+      '@babel/runtime':
+        specifier: ^7.22.6
+        version: 7.22.6
       '@expo/webpack-config':
         specifier: ^18.1.2
         version: 18.1.2(expo@49.0.4)
