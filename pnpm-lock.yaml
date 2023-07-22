@@ -32,6 +32,9 @@ importers:
       react-native:
         specifier: 0.71.8
         version: 0.71.8(@babel/core@7.22.9)(@babel/preset-env@7.22.9)(react@18.2.0)
+      shared:
+        specifier: workspace:*
+        version: link:../../packages/shared
     devDependencies:
       '@babel/core':
         specifier: ^7.20.0
