@@ -23,5 +23,6 @@
     "**/node_modules/**": true
   },
   "editor.linkedEditing": true,
-  "material-icon-theme.activeIconPack": "react"
+  "material-icon-theme.activeIconPack": "react",
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
